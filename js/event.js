@@ -20,3 +20,9 @@ const blueButton = document.getElementById('blue_button');
         function makeGoldenRod() {
             document.body.style.backgroundColor = 'goldenrod';
         }
+
+
+        const pinkButton =document.getElementById('pink_button');
+        pinkButton.addEventListener('click',function makePink(){
+            document.body.style.backgroundColor='pink';
+        })
