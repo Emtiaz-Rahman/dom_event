@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>he</h1>
+    <input id="name_field" type="text">
+    <button id="button_update">Click Me</button>
+    <p id="click_input"></p>
+
+
+    <script>
+        const updateButton = document.getElementById('button_update').addEventListener
+            ('click', function () {
+                const nameField = document.getElementById('name_field');
+                const clickInput = document.getElementById('click_input');
+                clickInput.innerText = nameField.value;
+                nameField.value = '';
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
