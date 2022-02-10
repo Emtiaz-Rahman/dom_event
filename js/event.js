@@ -13,4 +13,10 @@ const blueButton = document.getElementById('blue_button');
         const greenButton = document.getElementById('green_button');
         greenButton.onclick = function makeGreen() {
             document.body.style.backgroundColor = 'green';
-        };
+        }
+
+        const goldenrodButton = document.getElementById('goldenrod_button');
+        goldenrodButton.addEventListener('click', makeGoldenRod);
+        function makeGoldenRod() {
+            document.body.style.backgroundColor = 'goldenrod';
+        }
